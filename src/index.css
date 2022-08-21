@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.right-bg {
+  background-color: #641A65;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-side {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-bold {
+  font-weight: 500;
+}
+
+input {
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background: none;
+  caret-color: #641A65;
+  padding-left: 7px;
+}
+
+input:focus {
+  border: 1.7px solid #641A65;
+}
+
+input[type="checkbox"] {
+  accent-color: #641A65;
+}
+
+.h_100 {
+  height: 100vh;
+}
+
+.button {
+  border: none;
+  background-color: #641A65;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 13px;
+}
+
+.text_primary {
+  color: #641A65 !important;
+
+}
